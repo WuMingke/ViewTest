@@ -4,10 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.erkuai.viewtest.MainActivity">
 
     <com.erkuai.viewtest.ViewTest
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <com.erkuai.viewtest.GetPosTan
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
