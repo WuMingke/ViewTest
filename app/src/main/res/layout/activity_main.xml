@@ -5,20 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_vertical"
     tools:context="com.erkuai.viewtest.MainActivity">
 
     <com.erkuai.viewtest.ViewTest
-        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:visibility="gone" />
 
     <com.erkuai.viewtest.GetPosTan
-        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:visibility="gone" />
 
     <com.erkuai.viewtest.BezierWaveOne
-        android:visibility="visible"
+        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="100dp"
+        android:visibility="visible" />
 </LinearLayout>
