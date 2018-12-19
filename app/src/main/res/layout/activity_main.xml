@@ -13,6 +13,12 @@
         android:layout_height="match_parent" />
 
     <com.erkuai.viewtest.GetPosTan
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.erkuai.viewtest.BezierWaveOne
+        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
