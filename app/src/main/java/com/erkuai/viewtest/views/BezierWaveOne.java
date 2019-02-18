@@ -1,4 +1,4 @@
-package com.erkuai.viewtest;
+package com.erkuai.viewtest.views;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

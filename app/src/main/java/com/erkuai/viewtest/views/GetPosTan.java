@@ -1,4 +1,4 @@
-package com.erkuai.viewtest;
+package com.erkuai.viewtest.views;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,6 +12,8 @@ import android.graphics.PathMeasure;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.erkuai.viewtest.R;
 
 /**
  * Created by DELL on 2018/10/16.
@@ -50,7 +52,7 @@ public class GetPosTan extends View {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inSampleSize = 10;
 
-        bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.icon,options);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.icon,options);
         matrix = new Matrix();
     }
 

@@ -4,23 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context="com.erkuai.viewtest.MainActivity">
 
-    <com.erkuai.viewtest.ViewTest
+    <com.erkuai.viewtest.views.ViewTest
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
 
-    <com.erkuai.viewtest.GetPosTan
+    <com.erkuai.viewtest.views.GetPosTan
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
 
-    <com.erkuai.viewtest.BezierWaveOne
-        android:background="@color/colorPrimaryDark"
+    <com.erkuai.viewtest.views.BezierWaveOne
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:visibility="visible" />
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+    <com.erkuai.viewtest.views.RadarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.erkuai.viewtest.views.ShimmerTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="流畅 稳定 省电 省流量 纬度 升入"
+        android:visibility="visible"/>
 </LinearLayout>
