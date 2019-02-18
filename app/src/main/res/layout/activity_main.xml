@@ -33,5 +33,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="流畅 稳定 省电 省流量 纬度 升入"
+        android:visibility="gone"/>
+
+    <com.erkuai.viewtest.views.PorterDuffXfermodeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:visibility="visible"/>
 </LinearLayout>
