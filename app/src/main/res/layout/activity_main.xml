@@ -49,5 +49,10 @@
         android:layout_width="250px"
         android:layout_height="150dp"
         android:background="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <com.erkuai.viewtest.views.TelescopeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:visibility="visible"/>
 </LinearLayout>
