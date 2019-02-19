@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context="com.erkuai.viewtest.MainActivity">
 
@@ -38,5 +37,17 @@
     <com.erkuai.viewtest.views.PorterDuffXfermodeView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.erkuai.viewtest.views.ShapeView1
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <com.erkuai.viewtest.views.ShapeView2
+        android:layout_width="250px"
+        android:layout_height="150dp"
+        android:background="@color/colorAccent"
         android:visibility="visible"/>
 </LinearLayout>
