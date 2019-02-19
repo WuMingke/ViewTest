@@ -53,12 +53,20 @@ public class TelescopeView extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        int x = (int) event.getX();
-        int y = (int) event.getY();
-        matrix.setTranslate(RADIUS-x*FACTOR,RADIUS-y*FACTOR);
-        shapeDrawable.getPaint().getShader().setLocalMatrix(matrix);
-        shapeDrawable.setBounds(x-RADIUS,y-RADIUS,x+RADIUS,y+RADIUS);
-        postInvalidate();
-        return true;
+       /* switch (event.getAction()){
+            case MotionEvent.ACTION_DOWN:*/
+
+                int x = (int) event.getX();
+                int y = (int) event.getY();
+                matrix.setTranslate(RADIUS-x*FACTOR,RADIUS-y*FACTOR);
+                shapeDrawable.getPaint().getShader().setLocalMatrix(matrix);
+                shapeDrawable.setBounds(x-RADIUS,y-RADIUS,x+RADIUS,y+RADIUS);
+                postInvalidate();
+
+            return true;
+
+  /*      }
+        return super.onTouchEvent(event);
+*/
     }
 }
