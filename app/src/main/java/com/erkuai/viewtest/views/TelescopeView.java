@@ -69,4 +69,9 @@ public class TelescopeView extends View {
         return super.onTouchEvent(event);
 */
     }
+
+    @Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+    }
 }
