@@ -8,7 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
+public class MainActivity extends AppCompatActivity/* implements View.OnTouchListener*/ {
 
     private TextView test;
     private GestureDetector.OnGestureListener listener;
@@ -18,12 +18,14 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        test = findViewById(R.id.test);
-        test.setOnTouchListener(this);
+        //test = findViewById(R.id.test);
+        //test.setOnTouchListener(this);
+
+
     }
 
 
-    @Override
+   /* @Override
     public boolean onTouch(View v, MotionEvent event) {
         listener = new GestureDetector.OnGestureListener() {
             @Override
@@ -61,6 +63,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             }
         };
         return new GestureDetector(listener).onTouchEvent(event);
-    }
+    }*/
 
 }

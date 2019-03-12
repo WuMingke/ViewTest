@@ -66,5 +66,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GestureDetector"
-        android:textSize="50sp" />
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+    <com.erkuai.viewtest.views.RoundMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
